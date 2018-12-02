@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="../css/bootstrap-4.1.3.min.css" rel="stylesheet">
+<link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/admin.css" rel="stylesheet">
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/bootstrap-4.1.3.min.js"></script>
+<title>后台管理</title>
+</head>
+
+<body>
+<div class="page-wrapper">
+  <div id="sidebar" class="col-md-2 col-8 sidebar-wrapper">
+    <div class="sidebar-content">
+      <div class="sidebar-brand mb-3"> <a href="#" id="toogle-sidebar" class="float-left"><i class="fa fa-bars"></i></a> <span>后台管理系统</span> </div>
+      <div class="sidebar-header row">
+        <div class="user-pic col-3"> <img src="img/user.jpg" class="img-fluid" alt=""> </div>
+        <div class="user-info col-9"> <span class="user-name"><strong>百战天然</strong></span> <span class="user-role"><small>Administrator</small></span>
+          <div class="user-status"> <a href="#"><span class="badge badge-success">Online</span></a> </div>
+        </div>
+      </div>
+      <div class="sidebar-search row">
+        <form id="sidebar-search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search..." id="demo">
+            <div class="input-group-append">
+              <button type="button" class="input-group-text"><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="sidebar-menu row">
+        <ul>
+          <li class="header-menu"><i class="fa fa-star"></i> <span>管理产品</span> </li>
+          <li class="phone"><a href="#"><i class="fa fa-mobile text-info"></i> <span>手机类产品</span> </a> <span class="badge badge-success">New </span><i class="fa fa-angle-right"></i> </li>
+          <div id="phone"  class="ll">
+            <ul >
+              <li><a href="#">查看产品信息</a></li>
+              <li><a href="#">增加产品信息</a></li>
+              <li><a href="#">修改产品信息</a></li>
+              <li><a href="#">删除产品信息</a></li>
+            </ul>
+          </div>
+          <li class="tv"><a href="#"><i class="fa fa-tv text-info"></i> <span>家电类产品</span> </a> <i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="tv">
+            <ul >
+              <li><a href="#">查看产品信息</a></li>
+              <li><a href="#">增加产品信息</a></li>
+              <li><a href="#">修改产品信息</a></li>
+              <li><a href="#">删除产品信息</a></li>
+            </ul>
+          </div>
+          <li class="zn"><a href="#"><i class="fa fa-wifi text-info"></i> <span>智能类产品</span> </a> <span class="badge badge-success">New</span><i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="zn">
+            <ul class="pl">
+              <li><a href="#">查看产品信息</a></li>
+              <li><a href="#">增加产品信息</a></li>
+              <li><a href="#">修改产品信息</a></li>
+              <li><a href="#">删除产品信息</a></li>
+            </ul>
+          </div>
+          <li class="pj"><a href="#"><i class="fa fa-headphones text-info"></i> <span>配件类产品</span> </a> <i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="pj">
+            <ul >
+              <li><a href="#">查看产品信息</a></li>
+              <li><a href="#">增加产品信息</a></li>
+              <li><a href="#">修改产品信息</a></li>
+              <li><a href="#">删除产品信息</a></li>
+            </ul>
+          </div>
+          <li class="zb"><a href="#"><i class="fa fa-cubes text-info"></i> <span>周边类产品</span> </a> <span class="badge badge-danger">Hot</span><i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="zb">
+            <ul >
+              <li><a href="#">查看产品信息</a></li>
+              <li><a href="#">增加产品信息</a></li>
+              <li><a href="#">修改产品信息</a></li>
+              <li><a href="#">删除产品信息</a></li>
+            </ul>
+          </div>
+        </ul>
+        <ul class="user-ul">
+          <li class="header-menu"><i class="fa fa-user-circle-o"></i> 管理用户</li>
+          <li class="user"><a href="#"><i class="fa fa-user text-info"></i> <span>普通用户</span> </a> <span class="badge badge-warning">Warning</span><i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="user">
+            <ul >
+              <li><a href="#">查看用户信息</a></li>
+              <li><a href="#">增加用户信息</a></li>
+              <li><a href="#">修改用户信息</a></li>
+              <li><a href="#">删除用户信息</a></li>
+            </ul>
+          </div>
+          <li class="admin"><a href="#"><i class="fa fa-vcard-o text-info"></i> <span>管理员</span> </a><span class="badge badge-danger">Important</span> <i class="fa fa-angle-right"></i> </li>
+          <div class="ll" id="admin">
+            <ul >
+              <li><a href="#">查看管理员信息</a></li>
+            </ul>
+          </div>
+        </ul>
+        <div class="row">
+          <div class="col-12">
+            <p id="date" class="text-center"><i class="fa fa-spinner fa-spin"></i></p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-footer row">
+        <div class="col-3 border-left-0"><a href="#"><i class="fa fa-bell"></i><span class="badge badge-warning">3</span></a> </div>
+        <div class="col-3"><a href="#"><i class="fa fa-envelope"></i><span class="badge badge-success ">7</span></a></div>
+        <div class="col-3"><a href="#"><i class="fa fa-gear"></i></a></div>
+        <div class="col-3 border-right-0"><a href="#"><i class="fa fa-power-off"></i></a> </div>
+      </div>
+    </div>
+  </div>
+  <main id="page-main">
+    <div class="container-fluid">
+      <nav id="nav" class="navbar navbar-expand-md navbar-dark">
+        <div class="container justify-content-center">
+          <ul class="navbar-nav">
+            <li class="nav-item"> <a class="nav-link" href="#">IW ShOP 后台管理系统</a> </li>
+          </ul>
+        </div>
+      </nav>
+		<div class="col-md-8 col-12" id="phone-info"></div>
+		<div class="col-md-4 col-12  border-right-0" id="phone-info2"></div>
+		<div class="col-md-4 col-12" id="phone-info3"></div>
+		<div class="col-md-8 col-12  border-right-0" id="phone-info4"></div>
+    </div>
+  </main>
+  <a href="#" id="toogle-s"><i class="fa fa-bars"></i></a> </div>
+</body>
+<script src="js/echarts.min.js"></script>
+<script src="js/admin.js"></script>
+</html>

@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/bootstrap-4.1.3.min.css" rel="stylesheet">
+<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/index1.css" rel="stylesheet">
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap-4.1.3.min.js"></script>
+<title>index</title>
+</head>
+
+<body id="mypage">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark border-bottom shadow-sm" id="nav"> 
+  <!-- Brand --> 
+  <a class="navbar-brand" href="#">IW Shop</a> 
+  
+  <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> </button>
+  
+  <!-- Navbar links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ">
+      <li class="nav-item"> <a class="nav-link" href="#home">主页</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#phone">手机</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#jiadian">家电</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#zhineng">智能</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#peijian">配件</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#zhoubian">周边</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#contact">联系我们</a> </li>
+    </ul>
+  </div>
+  <form class="float-right form-inline hidden" id="form_relogin">
+    <label class="form-control mr-1" id="userinfo"><a href="javascript:viod(0)" data-toggle="modal" data-target="#login">登录/注册</a></label>
+    <!--<label class="form-control mr-1"><a href="#re_log.php">注册</a></label>-->
+    
+    <label class="form-control"><i class="fa fa-shopping-cart"></i><a href="#"> 购物车</a></label>
+    <div class="navbar-search">
+      <input type="text" class="form-control ml-1" placeholder="Search...">
+      <button class="btn btn-info"><i class="fa fa-search"></i></button>
+    </div>
+  </form>
+</nav>
+<nav class="navbar navbar-expand-md bg-w navbar-light mb-4 shadow position-sticky" id="daohang">
+  <div class="container"> <a class="navbar-brand" href="#">小米8 青春版</a>
+    <ul class="navbar-nav">
+      <li class="nav-item"> <a class="nav-link" href="#">概述</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">图集</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">参数</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">X码通道</a> </li>
+      <li class="nav-item"> <a class="nav-link" href="#">用户评价</a> </li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="demo" class="carousel slide" data-ride="carousel"> 
+        
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+        
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active"> <img src="img/index/a/h1.jpg" class="img-fluid" width="100%" alt="index_a"> </div>
+          <div class="carousel-item"> <img src="img/index/a/h2.jpg" class="img-fluid" width="100%" alt="index_a"> </div>
+          <div class="carousel-item"> <img src="img/index/a/h3.jpg" class="img-fluid" width="100%" alt="index_a"> </div>
+          <div class="carousel-item"> <img src="img/index/a/h4.jpg" class="img-fluid" width="100%" alt="index_a"> </div>
+        </div>
+        
+        <!-- 左右切换按钮 --> 
+        <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class="fa fa-chevron-left text-secondary" style="font-size: 1.5rem;"></i> </a> <a class="carousel-control-next text-secondary" href="#demo" data-slide="next"> <i class="fa fa-chevron-right" style="font-size: 1.5rem;"></i> </a> </div>
+    </div>
+    <div class="col-md-6" id="right">
+      <h3>小米8 青春版</h3>
+      <p class="text-justify"><span class="text-price">「6GB+64GB深空灰，限时秒杀，立省100元」</span><small class="text-secondary">潮流镜面渐变色 / 2400万自拍旗舰 / 7.5mm超薄机身 / 6.26"小刘海全面屏 / AI裸妆美颜 / 骁龙660AIE处理器</small></p>
+      <p><strong class="text-secondary">价格 </strong><b class="text-price">1399元</b></p>
+      <hr>
+      <p><span class="badge-info p-1">赠品</span> 100元手机配件优惠券</p>
+      <hr>
+      <div class="bg-h p-4 border mb-4 mt-4">
+        <p><span class="fa fa-map-marker fa-2x text-danger"></span> <small>浙江省 湖州市 吴兴区 环褚街道 <a href="#" class="text-price">修改</a></small>
+        <p class="text-price">有现货</p>
+        </p>
+      </div>
+      <div id="banben" class="mb-4">
+        <h5>选择版本</h5>
+        <div class="row mb-2">
+          <div class="col-5 active p-2 pl-3 pr-3"><span class="text-price">4+64GB 全网通</span><a class="float-right">1399元</a></div>
+          <div class="col-5 p-2 pl-3 pr-3 offset-2"><span class="text-price">6+64GB 全网通</span><a class="float-right">1699元</a></div>
+        </div>
+        <div class="row">
+          <div class="col-5 p-2 pl-3 pr-3"><span class="text-price">6+128GB 全网通</span><a class="float-right">1999元</a></div>
+          <div class="col-5 p-2 pl-3 pr-3 offset-2"><span class="text-price">4+128GB 全网通</span><a class="float-right">1799元</a></div>
+        </div>
+      </div>
+      <div id="color" class="mb-4">
+        <h5>选择颜色</h5>
+        <div class="row mb-2">
+          <div class="col-5 active p-2 pl-3 pr-3 text-center"><span class="fa fa-circle text-secondary"></span><span class="text-price"> 深空灰</span></div>
+        </div>
+      </div>
+      <div id="number" class="mb-4">
+        <h5>选择数量</h5>
+        <div class="row">
+          <div class="col-3">
+            <button class="btn btn-danger form-control" type="button" id="decrease">减</button>
+          </div>
+          <div class="col-6">
+            <input type="number" class="form-control" value="1" maxlength="2" min="1">
+          </div>
+          <div class="col-3">
+            <button class="btn btn-success form-control" type="button" id="add">加</button>
+          </div>
+        </div>
+      </div>
+      <div id="server" class="mb-4">
+        <div id="baoxian" class="mb-4">
+          <div class="row mb-2">
+            <div class="col-6">
+              <h5>选择手机的意外保险</h5>
+            </div>
+            <div class="col-6 text-right"><small class="text-price">了解意外保险</small></div>
+          </div>
+          <div class="row p-4 border">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2 p-4">
+                  <input type="radio" id="ch">
+                  <label for="ch"></label>
+                </div>
+                <div class="col-10">
+                  <div class="row">
+                    <div class="col-2"><i class="fa fa-shield fa-4x text-price"></i></div>
+                    <div class="col-9">
+                      <h4><small>全年意外保障险</small></h4>
+                      <p><small class="text-secondary">手机意外摔落/进水/碾压等损坏</small></p>
+                      <div class="row justify-content-between"><small class="text-price">服务条款|常见问题</small><span class="text-secondary">99元</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-4 border">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2 p-4">
+                  <input type="radio" id="ch1">
+                  <label for="ch1"></label>
+                </div>
+                <div class="col-10">
+                  <div class="row">
+                    <div class="col-2"><i class="fa fa-shield fa-4x text-price"></i></div>
+                    <div class="col-9">
+                      <h4><small>全年碎屏保障险</small></h4>
+                      <p><small class="text-secondary">手机意外碎屏</small></p>
+                      <div class="row justify-content-between"><small class="text-price">服务条款|常见问题</small><span class="text-secondary">59元</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="moreb">
+          <div class="row mb-2">
+            <div class="col-6">
+              <h5>选择手机的延长保修</h5>
+            </div>
+            <div class="col-6 text-right"><small class="text-price">了解延长保修</small></div>
+          </div>
+          <div class="row p-4 border">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-2 p-4">
+                  <input type="radio" id="ch2">
+                  <label for="ch2"></label>
+                </div>
+                <div class="col-10">
+                  <div class="row">
+                    <div class="col-2"><i class="fa fa-shield fa-4x text-price"></i></div>
+                    <div class="col-9">
+                      <h4><small>延长保修服务</small></h4>
+                      <p><small class="text-secondary">延长保修一年，性能故障免维修</small></p>
+                      <div class="row justify-content-between"><small class="text-price">服务条款|常见问题</small><span class="text-secondary">199元</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+	  <div class="col-12" id="msg">
+		  <div class="row justify-content-between mb-2 ">
+			  <span>小米8 青春版 4GB+64GB 深空灰</span><span>1399元</span>
+		  </div>
+		  <div class="row mt-4">
+		  <h2 class="text-price">总计:1399元</h2>
+		  </div>
+	  </div>
+    </div>
+  </div>
+</div>
+<div id="contact">
+  <div class="container-fluid p-5">
+    <div class="row justify-content-center mb-2">
+      <div class="col-md-11 col-12">
+        <div class="row li">
+          <div class="col">
+            <p class="text-center text-secondary"><i class="fa fa-wrench"></i> 预约维修服务</p>
+          </div>
+          <div class="col">
+            <p class="text-center text-secondary"><i class="fa fa-circle-o-notch"></i> 7天无理由退货</p>
+          </div>
+          <div class="col">
+            <p class="text-center text-secondary"><i class="fa fa-refresh"></i> 15天免费换货</p>
+          </div>
+          <div class="col">
+            <p class="text-center text-secondary"><i class="fa fa-gift"></i> 满150包邮</p>
+          </div>
+          <div class="col">
+            <p class="text-center text-secondary border-0"><i class="fa fa-map-marker"></i> 100多家售后网点</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-12 hidden">
+        <div class="table-responsive-sm">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>帮助中心</th>
+                <th>服务支持</th>
+                <th>线下门店</th>
+                <th>关于IW</th>
+                <th>关注我们</th>
+                <th>特色服务</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#">账户管理</a></td>
+                <td><a href="#">售后政策</a></td>
+                <td><a href="#">IW百货</a></td>
+                <td><a href="#">了解IW</a></td>
+                <td><a href="#">新浪微博</a></td>
+                <td><a href="#">F码通道</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">购物指南</a></td>
+                <td><a href="#">自助服务</a></td>
+                <td><a href="#">服务网点</a></td>
+                <td><a href="#">加入IW</a></td>
+                <td><a href="#">官方微信</a></td>
+                <td><a href="#">礼物码</a></td>
+              </tr>
+              <tr>
+                <td><a href="#">订单操作</a></td>
+                <td><a href="#">相关下载</a></td>
+                <td><a href="#">授权体验店</a></td>
+                <td><a href="#">我有疑问</a></td>
+                <td><a href="#">联系我们</a></td>
+                <td><a href="#">防伪查询</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-2 col-12 text-center pl-0 ">
+        <h3 class="text-price ">400-100-1234</h3>
+        <small>周一至周五(8:00-18:00)</small><br>
+        <small>(仅收市话费)</small><br>
+        <a href="#" class="btn btn-outline-danger mt-2"><i class="fa fa-comment-o"></i>联系客服</a> </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p class="mb-0"><a href="#mypage"><i class="fa fa-angle-double-up fa-2x"></i></a> </p>
+  <p class="mb-0">Copyright © 2018 · All Rights Reserved · XieJianHui. Based on Bootstrap</p>
+</footer>
+<script src="js/index1.js"></script>
+</body>
+</html>

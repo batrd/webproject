@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+.page-wrapper {
+	background-color: #494a5f;
+}
+.sidebar-wrapper {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    background-color: #1c232f;
+    overflow-y: scroll;
+	z-index: 2;
+}
+@media (max-width:768px){
+	.sidebar-wrapper{
+		left: -300px;
+	}
+	.nav-link{
+		font-size: 1rem!important;
+	}
+	#page-main>.container-fluid{
+		padding: 0;
+	}
+}
+@media (min-width:768px){
+	#page-main>.container-fluid{
+		padding-left: 250px;
+		padding-right: 0;
+	}
+}
+ .sidebar-wrapper::-webkit-scrollbar {/*滚动条整体样式*/
+ width: 6px;
+}
+ .sidebar-wrapper::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+ border-radius: 5px;
+ -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+ background: #657692;
+}
+ .sidebar-wrapper::-webkit-scrollbar-track {/*滚动条里面轨道*/
+ background: #1c232f;
+ border-right: 2px;
+ -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+.sidebar-content {
+    height: 100%;
+    position: relative;
+    padding: 1rem 0;
+}
+.sidebar-brand {
+    text-align: center;
+    color: #EBEBEB;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.user-pic {
+    border-radius: 4px;
+    padding: 0;
+}
+.sidebar-header {
+    padding: 1.8rem 0;
+    height: auto;
+    border-bottom: 1px solid #10151d;
+    border-top: 1px solid #10151d;
+}
+.user-pic img {
+    border-radius: 4px;
+}
+.user-info {
+    color: #ebebeb;
+}
+.fa-search {
+    font-size: 1rem;
+}
+#sidebar .row {
+    margin: 0;
+}
+.sidebar-search {
+    padding: 1rem 0;
+    border-bottom: 1px solid #10151d;
+}
+#sidebar .form-control, .input-group-text {
+    background-color: #0c1119;
+    border-color: #3c485d;
+    color: #9c9c9c;
+}
+#sidebar .form-control:focus {
+    background-color: #0c1119;
+}
+.sidebar-menu {
+    color: #9c9c9c;
+    padding: 0.7rem 0;
+}
+.header-menu {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.sidebar-menu>ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.sidebar-menu>ul li {
+    position: relative;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+.sidebar-menu>ul li a i {
+    background-color: #0c1119;
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    border-radius: 4px;
+    text-align: center;
+}
+.sidebar-menu ul li a {
+    color: #9c9c9c;
+}
+.sidebar-menu ul li a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+.sidebar-menu>ul li i.fa-angle-right {
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+}
+.ll {
+    background-color: #0c1119;
+    padding: 1rem 0;
+    display: none;
+    border-radius: 4px;
+}
+.user-ul {
+    border-top: 1px solid #10151d;
+}
+.sidebar-footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    background: #1c232f;
+    border-top: 1px solid #222b35;
+}
+.sidebar-footer>.col-3 {
+    text-align: center;
+    border-left: 1px solid #222b35;
+    border-right: 1px solid #10151d;
+    padding: 0;
+}
+.sidebar-footer a {
+    text-align: center;
+    font-size: 1.2rem;
+    height: 30px;
+    line-height: 30px;
+    color: #9c9c9c;
+    position: relative;
+}
+.sidebar-footer span {
+    position: absolute;
+    top: 0;
+    font-size: .8rem;
+    padding: 0.1rem 0.2rem;
+}
+#toogle-s{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	padding:0.5rem;
+}
+#toogle-s i{
+	font-size: 1.5rem;
+	color: #999;
+}
+body{
+	background-color: #494a5f;
+}
+.nav-link{
+	font-size: 1.8rem;
+}
+#nav{
+	background-color: #1c232f;
+}
+#phone-info,#phone-info2{
+	height: 400px;
+	float: left;
+	padding: 1rem;
+	border-bottom: 1px solid #666;
+	border-right: 1px solid #666;
+}
+#phone-info3,#phone-info4{
+	height: 279px;
+	float: left;
+	padding: 1rem;
+	border-right: 1px solid #666;
+}

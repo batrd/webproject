@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #fff;
+}
+.container {
+    width: 90%;
+}
+.center{
+	
+	float: none;
+	margin: auto;
+}
+#nav {
+    padding: 0.3rem 1rem;
+}
+#nav .form-control {
+    border-radius: 0!important;
+}
+#nav .btn{
+	border-radius: 0;
+}
+#nav .navbar-brand {
+    font-family: "楷体";
+    font-size: 1.6rem;
+    color: #45B1DB;
+}
+.carousel-indicators li {
+    background-color: #1985D7;
+}
+.carousel-indicators .active {
+    background-color: #555;
+}
+.position-sticky {
+    top: 0;
+    z-index: 99;
+}
+.bg-w {
+    background-color: #fff;
+}
+#sangou, #phone, #jiadian, #zhineng, #peijian, #zhoubian {
+    padding: 2rem 0;
+}
+.time {
+    padding: 0.5rem 0.8rem;
+}
+#time>.row {
+    background-color: #d9edf7;
+    margin-left: 0;
+    padding: 3rem 0;
+    border-top: 1px solid red;
+}
+.badge {
+    border-radius: 0;
+    font-size: 1rem;
+}
+#sc {
+    overflow: hidden;
+}
+#sc>.row>.col-md-3 {
+    padding: 0 1.5rem;
+}
+#sc>.row>.col-md-3>.row.flex-column {
+    padding: 1.5rem 0;
+}
+.control-span {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 1px solid #999;
+    padding: 0 0.3rem;
+}
+.text-price {
+    color: #ff6700;
+}
+.box {
+    background-color: #fff;
+    position: relative;
+}
+.boxs {
+    background-color: #fff;
+    position: relative;
+}
+del {
+    color: #999;
+}
+.row.flex-wrap {
+    margin-right: 0;
+}
+#phone .col-md-3.col-6 {
+    padding: 0.3rem;
+}
+#jiadian .col-md-3.col-6 {
+    padding: 0.3rem;
+}
+#zhineng .col-md-3.col-6 {
+    padding: 0.3rem;
+}
+#peijian .col-md-3.col-6 {
+    padding: 0.3rem;
+}
+#zhoubian .col-md-3.col-6 {
+    padding: 0.3rem;
+}
+.navbar-search {
+    display: none;
+}
+.nn {
+    position: absolute;
+    padding: 1rem;
+    z-index: 2;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 2px #ddd;
+    display: none;
+}
+.img-left {
+    position: relative;
+}
+.mm {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ff6700;
+    padding: 1rem 0;
+    display: none;
+}
+.li p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    border-right: 1px solid #ccc;
+}
+ tr, th, td {
+    border: 0!important;
+}
+.table thead th {
+    color: #777;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.table a {
+    color: #555;
+    font-size: 0.8rem;
+}
+.table a:hover {
+    text-decoration: none;
+    color: #ff6700;
+}
+.table td, .table th {
+    padding: 0.5rem;
+}
+#more {
+    position: absolute;
+    bottom: 0;
+    right: 1rem;
+    text-align: right;
+    align-content: center;
+    font-size: 1.1rem;
+    color: #999;
+}
+#more a {
+    font-size: 1.1rem;
+    color: #999;
+}
+#more a:hover {
+    text-decoration: none;
+    color: #ff6700;
+}
+.tabs {
+    position: absolute;
+    top: 1.3rem;
+    right: 1rem;
+}
+.tabs a {
+    color: #000;
+}
+.tabs .active {
+    text-decoration: none;
+    color: #ff6700;
+    border-bottom: 1px solid #ff6700;
+}
+.container-fluid>.row {
+    position: relative;
+}
+.navbar-nav .nav-link.active {
+    color: #ff6700!important;
+}
+footer {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: "微软雅黑";
+	
+}
+.warning {
+    display: none;
+}
+.modal {
+    font-family: "微软雅黑";
+    top: 20%;
+}
+.modal-header {
+    border-radius: 0;
+    border-bottom: 1px solid #ff6700;
+}
+.modal-content {
+    border-radius: 0!important;
+    margin: auto;
+    border: 0;
+    box-shadow: 0px 0px 4px #555;
+}
+.bg-h {
+    background-color: #fa7d3c;
+    color: #fff;
+}
+input[type='checkbox'] {
+    width: 1rem;
+    height: 1rem;
+}
+#login-form label .text-danger{
+	display: none;
+	font-weight: normal;
+	font-size: .8rem;
+}
+@media (max-width:768px) {
+.hidden {
+    display: none;
+}
+body {
+    font-size: 62.5%!important;
+}
+.row.flex-wrap {
+    margin-right: -15px;
+}
+.p2 {
+    padding: .5rem!important;
+}
+#sangou, #phone, #jiadian, #zhineng, #peijian, #zhoubian {
+    padding: 1rem 0;
+}
+.boxs {
+    padding: 0;
+}
+img[alt="ax_2"] {
+    margin-bottom: 0.5rem;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+.carousel-indicators li {
+    width: 12px;
+}
+.warning {
+    display: block;
+	position: fixed;
+	top: 12%;
+	z-index: 100;
+}
+}
+@media (min-width:1300px) {
+.box {
+    padding: 1rem 0.5rem;
+}
+.boxs {
+    padding: 0.8rem 1rem;
+}
+}

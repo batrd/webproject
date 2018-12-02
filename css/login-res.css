@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #fff;
+}
+#nav {
+	padding: 0.3rem 1rem;
+}
+#nav .form-control {
+	border-radius: 0!important;
+}
+#nav .btn {
+	border-radius: 0;
+}
+#nav .navbar-brand {
+	font-family: "楷体";
+	font-size: 1.6rem;
+	color: #45B1DB;
+}
+#main {
+	padding: 6rem;
+}
+#main .row.justify-content-end div {
+	font-size: 2rem;
+	padding: 3rem 0.8rem 3rem 0.8rem;
+	background-color: #ddd;
+	color: #343a40;
+	opacity: 0.9;
+	cursor: pointer;
+}
+#main .row.justify-content-end .active {
+	background-color: #343a40!important;
+	color: #eee!important;
+}
+#main .row .col-11 .row .col-md-10 {
+	background-color: #efefef;
+	opacity: 0.8;
+}
+#r>.row >.col-md-8 {
+	padding: 3.5rem 1rem;
+	border-right: 1px dashed #ccc;
+}
+#l>.row>.col-md-8 {
+	padding: 6rem 1rem;
+	border-right: 1px dashed #ccc;
+}
+#main .col-md-10>.row >.col-4 {
+	padding: 4.5rem 1rem;
+}
+.rr {
+	position: absolute;
+	right: 1rem;
+	top: 0.7rem;
+	color: red;
+}
+.form-group {
+	position: relative;
+}
+.form-control {
+	border-radius: 0;
+}
+.fa-check-circle-o {
+	color: #117A0D!important;
+}
+.modal-header {
+	border-radius: 0;
+	border-bottom: 1px solid #ff6700;
+}
+.modal-content {
+	border-radius: 0!important;
+	margin: auto;
+	border: 0;
+	box-shadow: 0px 0px 4px #555;
+}
+.mo {
+	display: none;
+}
+@media (max-width:768px) {
+body {
+	font-size: 80%;
+}
+.hidden {
+	display: none;
+}
+.mo {
+	display: block;
+}
+#main {
+	padding: 2rem;
+}
+.mo .row .col-6 {
+	text-align: center;
+	padding: 0.5rem;
+	background-color: #ddd;
+	color: #343a40;
+	opacity: 0.9;
+	cursor: pointer;
+}
+.mo .row .col-6.active {
+	background-color: #343a40 !important;
+	color: #eee!important;
+}
+#r>.row >.col-12 {
+	padding: 1rem 0;
+	border: 0;
+}
+#l>.row >.col-12 {
+	padding: 1rem 0;
+	border: 0;
+}
+.form-control {
+	font-size: 0.7rem;
+}
+#ma {
+	padding: 0;
+}
+#canvas {
+	width: 100px;
+	height: 38px;
+}
+}

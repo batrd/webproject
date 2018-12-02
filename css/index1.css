@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+#nav {
+    padding: 0.3rem 1rem;
+}
+#nav .form-control {
+    border-radius: 0!important;
+}
+#nav .btn {
+    border-radius: 0;
+}
+#nav .navbar-brand {
+    font-family: "楷体";
+    font-size: 1.6rem;
+    color: #45B1DB;
+}
+#daohang .nav-item a:hover {
+    color: #ff6700;
+}
+.carousel-indicators li {
+    background-color: #999;
+}
+.carousel-indicators .active {
+    background-color: #555;
+}
+h3 {
+    font-weight: normal;
+}
+.text-price {
+    color: #ff6700;
+}
+small {
+    font-size: 90%;
+}
+b {
+    font-size: 1.5rem;
+}
+.bg-h {
+    background-color: #eee;
+}
+#banben .row .col-5 {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#banben .row .col-5.active {
+    border: 1px solid #ff6700;
+}
+#banben>.row {
+    margin: 0;
+}
+#color>.row {
+    margin: 0;
+}
+#color .row .col-5 {
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#color .row .col-5.active {
+    border: 1px solid #ff6700;
+}
+.li p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    border-right: 1px solid #ccc;
+}
+tr, th, td {
+    border: 0!important;
+}
+.table thead th {
+    color: #777;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.table a {
+    color: #555;
+    font-size: 0.8rem;
+}
+.table a:hover {
+    text-decoration: none;
+    color: #ff6700;
+}
+.table td, .table th {
+    padding: 0.5rem;
+}
+footer {
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: "微软雅黑";
+}
+.position-sticky {
+    top: 0;
+    z-index: 999;
+}
+.bg-w {
+    background-color: #fff;
+}
+#demo {
+    position: sticky;
+    top: 40px;
+    z-index: 998;
+}
+input[type="radio"] + label::before {
+    content: "\a0"; /*不换行空格*/
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    width: 1rem;
+    height: 1rem;
+    margin-right: .4rem;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    text-indent: .15rem;
+    line-height: 1;
+}
+input[type="radio"]:checked + label::before {
+    background-color: #ff6700;
+    background-clip: content-box;
+    padding: .2rem;
+}
+input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.row.p-4.border.active {
+    border-color: #ff6700!important;
+}
+
